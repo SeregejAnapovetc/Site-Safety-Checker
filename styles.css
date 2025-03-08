@@ -1,0 +1,29 @@
+#container {
+    width: 200px;
+    padding: 10px;
+    border: 2px solid gray; /* По умолчанию - серый контур */
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  #container.safe {
+    border-color: green;
+    color: green;
+  }
+  
+  #container.warning {
+    border-color: yellow;
+    background-color: #fffacd; /* Светло-желтый фон для лучшей видимости */
+    color: #8b8000; /* Темно-желтый цвет текст возможно файл может */
+  }
+  
+  #container.danger {
+    border-color: red;
+    background-color: #ffe0e0; /* Светло-красный фон */
+    color: red;
+  }
+  
+  #message {
+    font-size: 12px;
+  }
+  
