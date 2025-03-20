@@ -12,7 +12,7 @@
       "default_title": "Site Safety Checker"
     },
     "background": {
-      "service_worker": "background.js"
+      "service_worker": "backgrond.js"
     }
   }
   
